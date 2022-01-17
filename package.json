@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-jwt",
+  "version": "1.0.0",
+  "description": "NodeJS Register and Login using JWT and MondoDb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marvellous Makuyana",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.2",
+    "express-unless": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.6",
+    "mongoose-unique-validator": "^3.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
